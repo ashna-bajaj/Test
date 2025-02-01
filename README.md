@@ -24,9 +24,9 @@ It was originally introduced by Ronald Fisher in 1936 and is widely used for cla
 - `Iris_Analysis.md` → Markdown export of the notebook  
 
 ##  Key Findings  
-✔ **Setosa is easy to classify** because it’s well-separated.  
-✔ **Versicolor & Virginica have overlapping features**, making them harder to distinguish.  
-✔ **Petal length and petal width have a strong correlation**.  
+**Setosa is easy to classify** because it’s well-separated.  
+ **Versicolor & Virginica have overlapping features**, making them harder to distinguish.  
+**Petal length and petal width have a strong correlation**.  
 
 ##  How to Run This Project  
 1. Download the repository.  
