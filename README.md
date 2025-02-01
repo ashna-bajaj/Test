@@ -33,18 +33,5 @@ It was originally introduced by Ronald Fisher in 1936 and is widely used for cla
 2. Open `Iris_Analysis.ipynb` in Jupyter Notebook.  
 3. Run all cells to generate insights and visualizations.  
 
----
 
-## ** Step 2: Save & Commit the README**
-1️. Click **"Commit new file"** (green button at the bottom). 
-2️. Now, your repository will have a **clear description of your project!**  
 
----
-
-## ** Step 3: Final Checks Before Submission**
- **GitHub has all files:** `Iris_Analysis.ipynb`, `.html`, `.md` 
- **A good README.md is added**   
- **Your project is easy to understand & run**   
-
- **You are 100% DONE! Ready to submit!**  
-Drop your GitHub link if you want me to **double-check it before submission!** 
