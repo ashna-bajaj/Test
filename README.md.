@@ -22,7 +22,7 @@ Duplicate entries and missing values were reviewed and removed where necessary.
 Sample queries and exploratory data analysis (EDA) were performed to verify data integrity.
  How This Improves the Project
 With the flower dataset integrated, this project now provides a more complete and detailed dataset, allowing for:
-✔ Better classification of flower species based on their measurements.
-✔ Deeper insights into how petal/sepal length relates to species differences.
-✔ A richer dataset that can be used for further machine learning models or visualizations.
+ Better classification of flower species based on their measurements.
+Deeper insights into how petal/sepal length relates to species differences.
+ A richer dataset that can be used for further machine learning models or visualizations.
 
