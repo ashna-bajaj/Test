@@ -1,0 +1,28 @@
+ Incorporating the Flower Dataset & Amy’s Feedback
+For Assignment 6, I incorporated Amy’s feedback by merging a second dataset related to flowers into the project. This dataset contains information about various flower species, their characteristics, and measurements (e.g., petal length, petal width, sepal length, sepal width, and species classification).
+Since , the first data set was not very different. 
+By adding this dataset, the project now has a wider range of data, allowing for more detailed analysis of flower attributes and their relationships.
+
+Updates Made in This Assignment
+ 1. Merging the Flower Dataset
+The flower dataset was merged with the existing dataset using a Python script (MergeDataSet.py).
+Columns from both datasets were aligned to ensure consistency.
+Missing or incompatible values were handled using data cleaning techniques in Jupyter Notebook.
+ 2. Updating the Results
+After merging, the results.csv file was updated to include data from the new flower dataset.
+This now reflects information about different flower species and their characteristics alongside the original dataset.
+Additional analysis was performed to check how the new dataset impacts the overall insights.
+⚙ 3. Improving the Data Processing Pipeline
+The script was refactored to handle new fields like petal length and species classification.
+Adjustments were made to improve data formatting, accuracy, and handling of missing values.
+Functions were added to categorize and analyze flower species based on attributes.
+ 4. Verifying & Validating the Dataset
+The final dataset was cross-checked to ensure all records were correctly merged.
+Duplicate entries and missing values were reviewed and removed where necessary.
+Sample queries and exploratory data analysis (EDA) were performed to verify data integrity.
+ How This Improves the Project
+With the flower dataset integrated, this project now provides a more complete and detailed dataset, allowing for:
+✔ Better classification of flower species based on their measurements.
+✔ Deeper insights into how petal/sepal length relates to species differences.
+✔ A richer dataset that can be used for further machine learning models or visualizations.
+
