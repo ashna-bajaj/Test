@@ -1,6 +1,6 @@
 #  Iris Dataset Analysis with Synthetic Data
 
-## ** Introduction**
+##  Introduction
 This project explores the **Iris dataset**, a well-known dataset in machine learning, originally introduced by Ronald Fisher in 1936.  
 In addition to analyzing the **Iris dataset**, we also **created and merged a synthetic flower dataset** to compare classification models.
 
@@ -21,7 +21,7 @@ We worked with **two datasets**:
 
 ---
 
-## **🛠 Methodology**
+## ** Methodology**
 
 ### **1️ Data Preparation**
 - Loaded **Iris dataset (`iris_.csv`)** and **Synthetic Flower dataset (`Synthetic_Flower_2ndDataset.csv`)**.
@@ -39,7 +39,7 @@ We worked with **two datasets**:
 
 ---
 
-## **📈 Key Findings**
+## ** Key Findings**
 
 ### **1️ Comparison Between Original & Synthetic Data**
 - **Setosa is well-separated** in the original dataset, while **Lily, Orchid, and Rose** have overlapping feature distributions.
@@ -55,9 +55,9 @@ We worked with **two datasets**:
 ## ** Conclusion**
 This project demonstrates **how different datasets can be merged, compared, and analyzed** for classification tasks.
 
-✅ **Comparison between two different flower datasets.**  
-✅ **Successful data merging process with minimal loss.**  
-✅ **Key insights from cross-dataset visualization.**  
+ **Comparison between two different flower datasets.**  
+ **Successful data merging process with minimal loss.**  
+ **Key insights from cross-dataset visualization.**  
 
 ---
 
