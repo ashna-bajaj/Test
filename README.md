@@ -1,37 +1,67 @@
-# Iris Data Analysis Project  
+#  Iris Dataset Analysis with Synthetic Data
 
-## Introduction  
-This project explores the **Iris dataset**, one of the most famous datasets in machine learning.  
-It was originally introduced by Ronald Fisher in 1936 and is widely used for classification problems.  
+## ** Introduction**
+This project explores the **Iris dataset**, a well-known dataset in machine learning, originally introduced by Ronald Fisher in 1936.  
+In addition to analyzing the **Iris dataset**, we also **created and merged a synthetic flower dataset** to compare classification models.
 
-## Dataset Information  
-- **150 samples** (50 from each species: Setosa, Versicolor, Virginica).  
-- **4 numerical features**:  
-  - Sepal Length (cm)  
-  - Sepal Width (cm)  
-  - Petal Length (cm)  
-  - Petal Width (cm)  
-- **1 categorical feature**: Species (Setosa, Versicolor, Virginica).  
+## ** Dataset Information**
+We worked with **two datasets**:
+1. **Original Iris Dataset (`iris_.csv`)**  
+   - 149 samples across **three species** (Setosa, Versicolor, Virginica).  
+   - Features: Sepal & Petal Length/Width.
 
-##  Objectives  
-- Understand relationships between different flower features.  
-- Visualize patterns between species.  
-- Identify trends or clusters in the dataset.  
+2. **Synthetic Flower Dataset (`Synthetic_Flower_2ndDataset.csv`)**  
+   - 149 samples across **three new species** (Lily, Orchid, Rose).  
+   - Generated with unique feature distributions.
 
-##  Files in This Repository  
-- `Iris_Analysis.ipynb` → Jupyter Notebook for analysis  
-- `Iris_Analysis.html` → HTML export of the notebook  
-- `Iris_Analysis.md` → Markdown export of the notebook  
+## ** Objectives**
+✔ Understand relationships between flower features in different datasets.  
+✔ Merge and analyze data from **two different datasets**.  
+✔ Compare patterns between species in the Iris and synthetic datasets.  
 
-##  Key Findings  
-**Setosa is easy to classify** because it’s well-separated.  
- **Versicolor & Virginica have overlapping features**, making them harder to distinguish.  
-**Petal length and petal width have a strong correlation**.  
+---
 
-##  How to Run This Project  
-1. Download the repository.  
-2. Open `Iris_Analysis.ipynb` in Jupyter Notebook.  
-3. Run all cells to generate insights and visualizations.  
+## **🛠 Methodology**
+
+### **1️ Data Preparation**
+- Loaded **Iris dataset (`iris_.csv`)** and **Synthetic Flower dataset (`Synthetic_Flower_2ndDataset.csv`)**.
+- Ensured **"Flower_ID"** existed in both datasets for merging.
+
+### **2️ Merging Process**
+- Used **Flower_ID** as a unique identifier for merging.
+- Applied a **left join** to merge datasets.
+- Removed duplicate columns to maintain a clean structure.
+- Saved the **final merged dataset (`Final_Merged_Dataset.csv`)**.
+
+### **3️ Data Analysis & Visualization**
+- Created **pairplots, histograms, and boxplots** to compare original and synthetic datasets.
+- Analyzed **differences in feature distributions between real and synthetic flowers**.
+
+---
+
+## **📈 Key Findings**
+
+### **1️ Comparison Between Original & Synthetic Data**
+- **Setosa is well-separated** in the original dataset, while **Lily, Orchid, and Rose** have overlapping feature distributions.
+- **Synthetic dataset shows more variability in Sepal and Petal Width**.
+- **Petal Length & Petal Width remain strongly correlated** in both datasets.
+
+### **2️ Merging & Data Integration Insights**
+- The **final dataset combines both original and synthetic data**, allowing for cross-dataset comparisons.
+- The merging process **highlighted differences in feature distributions** across datasets.
+
+---
+
+## ** Conclusion**
+This project demonstrates **how different datasets can be merged, compared, and analyzed** for classification tasks.
+
+✅ **Comparison between two different flower datasets.**  
+✅ **Successful data merging process with minimal loss.**  
+✅ **Key insights from cross-dataset visualization.**  
+
+---
+
+## ** Files in This Repository**
 
 
 
