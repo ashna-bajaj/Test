@@ -15,9 +15,9 @@ We worked with **two datasets**:
    - Generated with unique feature distributions.
 
 ## ** Objectives**
-✔ Understand relationships between flower features in different datasets.  
-✔ Merge and analyze data from **two different datasets**.  
-✔ Compare patterns between species in the Iris and synthetic datasets.  
+ Understand relationships between flower features in different datasets.  
+ Merge and analyze data from **two different datasets**.  
+ Compare patterns between species in the Iris and synthetic datasets.  
 
 ---
 
